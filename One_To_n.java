@@ -1,3 +1,5 @@
+// Ques. Print numbers from 1 to n.
+
 import java.util.Scanner;
 
 public class One_To_n {
