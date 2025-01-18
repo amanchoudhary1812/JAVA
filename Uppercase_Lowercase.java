@@ -1,3 +1,5 @@
+// Ques: Find that the character is Uppercase or Lowercase ?
+
 import java.util.Scanner;
 
 public class Uppercase_Lowercase {
