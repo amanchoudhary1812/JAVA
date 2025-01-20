@@ -6,7 +6,6 @@ public class DoWhile_Loop {
             
             System.out.println("Hey!");
 
-        }
-        while(num != 1);
+        }while(num != 1);
     }
 }
