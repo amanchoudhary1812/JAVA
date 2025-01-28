@@ -2,7 +2,7 @@ public class Maximum_Valueof_Array{
     public static void main(String[] args) {
         int[] arr = {1, 3, 22, 9, 18};
         System.out.println(max(arr));
-        System.out.println(maxRange(arr, 3, 2));
+        System.out.println(maxRange(arr, 0, 2));
     }
 
     static int max(int[] arr){
