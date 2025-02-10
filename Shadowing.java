@@ -6,7 +6,7 @@ public class Shadowing {
     public static void main(String[] args) {
         System.out.println(x);
         int x;
-        x = 50;
+        x = 40;
         System.out.println(x);
         fun();
     }
