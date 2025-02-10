@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Temperature_Conversion {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter Temperature in Celsius:");
+        System.out.println("Enter the Temperature in Celsius:");
 
         Float tempC = input.nextFloat();
 
