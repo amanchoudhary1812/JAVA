@@ -1,6 +1,6 @@
 public class Maximum_Valueof_Array{
     public static void main(String[] args) {
-        int[] arr = {1, 3, 22, 90, 18, 99};
+        int[] arr = {1, 3, 22, 9, 18, 99};
         System.out.println(max(arr));
         System.out.println(maxRange(arr, 0, 2));
     }
