@@ -1,7 +1,7 @@
 public class While_Loop {
     public static void main(String[] args) {
         
-        int num = 5;
+        int num = 6;
         
         while(num <= 10){
 
