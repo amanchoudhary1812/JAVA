@@ -14,7 +14,7 @@ public class ArrayList_Example {
         System.out.println(list.contains(66));
         System.out.println(list.contains(546));
         System.out.println(list);
-        list.set(1, 55);
+        list.set(0, 55);
         System.out.println(list);
         list.remove(3);
         System.out.println(list);
