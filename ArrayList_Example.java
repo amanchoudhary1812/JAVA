@@ -11,10 +11,10 @@ public class ArrayList_Example {
         list.add(99);
         list.add(88);
 
-        System.out.println(list.contains(666));
+        System.out.println(list.contains(66));
         System.out.println(list.contains(546));
         System.out.println(list);
-        list.set(0, 55);
+        list.set(1, 55);
         System.out.println(list);
         list.remove(3);
         System.out.println(list);
