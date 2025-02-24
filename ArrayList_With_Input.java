@@ -9,7 +9,7 @@ public class ArrayList_With_Input {
         ArrayList<Integer> list = new ArrayList<>(5);
         
         // Input
-        for(int i = 0; i<5; i++){
+        for(int i = 0; i<6; i++){
             list.add(in.nextInt());
         }
 
