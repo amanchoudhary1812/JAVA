@@ -6,6 +6,7 @@ public class One_To_Five {
         for(int num = 1; num <= 5; num += 1){
 
             System.out.println(num);
+            
 
         }
     }
