@@ -55,7 +55,8 @@ public class SearchInMountain {
                 } else {
                     start = mid +1;
                 } 
-            } else {
+            } else 
+            {
                 if (target > arr[mid]) {
                     end = mid -1;
                 } else {
