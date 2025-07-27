@@ -1,7 +1,7 @@
 public class SearchInMountain {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,3,1};
-        int target = 3;
+        int[] arr = {1,2,3,4,5,3,2,1};
+        int target = 2;
         int ans = search(arr, target);
         System.out.println(ans);
     }
