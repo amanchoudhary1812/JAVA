@@ -26,6 +26,6 @@ public class Mountain {
         // hence, they ae pointing to just one element, that is the max one because that is what the checks say
         // more elaboration : at every point of time. for start and end, they have the best possible answer till that time
         // and if we are saying that only one item is remaining, hence because of above line that is the best possible answer
-        return start; // or return end; as both are equal
+        return end; // or return end; as both are equal
     }
 }
