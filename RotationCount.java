@@ -1,6 +1,6 @@
 public class RotationCount {
     public static void main(String[] args) {
-        int[] arr = {15,19,21,27,33,5,8,11,13};
+        int[] arr = {15,19,21,27,33,5,8,11,13,14};
         System.out.println(countRotations(arr));
     }
 
