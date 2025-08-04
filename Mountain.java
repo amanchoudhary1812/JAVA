@@ -1,6 +1,6 @@
 public class Mountain {
     public static void main(String[] args) {
-        int[] arr = {0,1,2,3,4,3,0};
+        int[] arr = {0,1,2,3,4,3,0, 9};
         int ans = peakIndexInMountainArray (arr);
         System.out.println(ans);
     }
