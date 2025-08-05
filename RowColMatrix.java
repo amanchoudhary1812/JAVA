@@ -10,7 +10,7 @@ public class RowColMatrix {
             {33, 34, 38, 60}
         };
 
-        System.out.println(Arrays.toString(search(arr, 49)));
+        System.out.println(Arrays.toString(search(arr, 34)));
     }
 
     static int[] search (int[][] matrix, int target) {
