@@ -55,7 +55,7 @@ public class FlattenedSortedMatrix {
         }
 
         // Search in 2nd half
-        if (target >= matrix[rStart][cMid + 1] && target <= matrix[rStart][cols + 1]) {
+        if (target >= matrix[rStart][cMid + 1] && target <= matrix[rStart][cols - 1]) {
             return binarySearch(matrix, rStart, cMid + 1, cols - 1, target);
         }
 
