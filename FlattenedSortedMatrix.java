@@ -9,7 +9,7 @@ public class FlattenedSortedMatrix {
             {7, 8, 9}
         };
 
-        System.out.println(Arrays.toString(search(arr, 6)));
+        System.out.println(Arrays.toString(search(arr, 9)));
     }
 
     static int[] search (int[][] matrix, int target) {
@@ -55,7 +55,7 @@ public class FlattenedSortedMatrix {
         }
 
         // Search in 2nd half
-        if (target >= matrix[rStart][cMid + 1]) {
+        if (target >= matrix[rStart][cMid + 1] && target <= matrix[rStart][cols + 1]) {
             return binarySearch(matrix, rStart, cMid + 1, cols - 1, target);
         }
 
@@ -64,7 +64,7 @@ public class FlattenedSortedMatrix {
             return binarySearch(matrix, rStart + 1, 0, cMid - 1, target);
         } 
         else { // Search in 4th half
-            return binarySearch(matrix, rStart + 1, 0, cols - 1, target);
+            return binarySearch(matrix, rStart + 1, cMid + 1, cols - 1, target);
         }
     }
 
