@@ -32,7 +32,7 @@ public class multidimensional_Array {
         // }
 
         // Output (Enhanced for loop)
-        for(int[] a : arr){    // For every element in array, print the element.
+        for(int[] a : arr) {    // For every element in array, print the element.
             System.out.println(Arrays.toString(a));
         }
     }
