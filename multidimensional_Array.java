@@ -12,7 +12,7 @@ public class multidimensional_Array {
         for (int row = 0; row < arr.length; row++) {
             
             // For each col in every row
-            for(int col = 0; col < arr[row].length; col++){
+            for(int col = 0; col < arr[row].length; col++) {
                 arr [row][col] = in.nextInt();
             }
         }
