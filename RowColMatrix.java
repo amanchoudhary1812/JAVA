@@ -24,7 +24,7 @@ public class RowColMatrix {
             if (matrix [row][column] < target) {
                 row++;
             } else {
-                column--;
+                column++;
             }
         }
         return new int[]{-1, -1};
