@@ -9,7 +9,7 @@ public class Uppercase_Lowercase {
         char ch = in.next().trim().charAt(0);
         if(ch >= 'a' && ch <= 'z'){
             System.out.println("Lowercase");
-        }else{
+        } else {
             System.out.println("Uppercase");
         }
     }
