@@ -73,6 +73,7 @@ public class FlattenedSortedMatrix {
     static int[] binarySearch(int[][] matrix, int row, int cStart, int cEnd, int target) {
         
         while (cStart <= cEnd) {
+            
             int mid = cStart + (cEnd - cStart) / 2;
             if (matrix[row][mid] == target) {
                 return new int[]{row, mid};
