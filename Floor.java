@@ -24,7 +24,6 @@ public class Floor {
                 return mid;
             }
         }
-        
         return end;
     }
 }
