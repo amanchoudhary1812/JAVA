@@ -10,6 +10,7 @@ public class ShortestSubarrayORAtLeastK {
         int currentOR = 0;
         int ans = Integer.MAX_VALUE;
 
+
         for (int right = 0; right < n; right++) {
 
             // Add current number to window
