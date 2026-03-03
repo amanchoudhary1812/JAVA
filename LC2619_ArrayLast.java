@@ -30,3 +30,4 @@ public class LC2619_ArrayLast {
         sc.close();
     }
 }
+
