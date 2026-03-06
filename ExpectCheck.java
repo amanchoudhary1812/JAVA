@@ -28,7 +28,7 @@ class ExpectCheck {
 
     public static void main(String[] args) {
         try {
-            System.out.println(expect(5).toBe(5)); 
+            System.out.println(expect(5).toBe(3)); 
             System.out.println(expect(5).notToBe(3)); 
         } catch (Exception e) {
             System.out.println(e.getMessage());
