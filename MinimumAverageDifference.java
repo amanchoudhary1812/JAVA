@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class MinimumAverageDifference {
 
@@ -11,10 +12,9 @@ public class MinimumAverageDifference {
 
         long leftSum = 0;
         long minDiff = Long.MAX_VALUE;
-        int resultIndex = 0;
+        int answer = 0;
 
         for (int i = 0; i < n; i++) {
-
             leftSum += nums[i];
             long rightSum = totalSum - leftSum;
 
@@ -25,15 +25,30 @@ public class MinimumAverageDifference {
 
             if (diff < minDiff) {
                 minDiff = diff;
-                resultIndex = i;
+                answer = i;
             }
         }
 
-        return resultIndex;
+        return answer;
     }
 
     public static void main(String[] args) {
-        int[] nums = {2, 5, 3, 9, 5, 3};
-        System.out.println(minimumAverageDifference(nums));
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter array size: ");
+        int n = sc.nextInt();
+
+        int[] nums = new int[n];
+
+        System.out.println("Enter array elements:");
+        for (int i = 0; i < n; i++) {
+            nums[i] = sc.nextInt();
+        }
+
+        int result = minimumAverageDifference(nums);
+
+        System.out.println("Minimum Average Difference Index: " + result);
+
+        sc.close();
     }
 }
