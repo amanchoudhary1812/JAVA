@@ -18,15 +18,16 @@ public class MinimumTimeTypewriter {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter word: ");
-        String word = sc.nextLine();
+    System.out.print("Enter word:");
+    String word = sc.nextLine();
 
-        int result = minTimeToType(word);
+    int result = minTimeToType(word);
 
-        System.out.println("Minimum time to type word: " + result);
+    System.out.println("Minimum time to type word: " + result);
 
-        sc.close();
+    sc.close();
     }
 }
+
