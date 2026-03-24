@@ -1,9 +1,15 @@
+import java.util.Scanner;
+
 public class VolumeOfSphere {
     public static void main(String[] args) {
-        double radius = 5;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Radius: ");
+        double radius = sc.nextDouble();
         double volume = 4.0/3.0 * 3.14 * radius * radius * radius;
         
-        System.out.println(volume);
+        System.out.println("Volume of Sphere :" + volume);
 
     }
 }
