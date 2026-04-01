@@ -12,7 +12,7 @@ public class ArithmeticProgression {
         // }
 
         for (int i=5; i<= 5*n ; i+=5) {
-            System.out.println(i + " ");
+            System.out.print(i + " ");
         }
 
     }
