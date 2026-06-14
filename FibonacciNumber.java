@@ -17,6 +17,7 @@ public class FibonacciNumber {
             a = temp;
             count++;
         }
+        
         System.out.println(b);
 
         sc.close();
