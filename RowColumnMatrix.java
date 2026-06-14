@@ -8,6 +8,7 @@ public class RowColumnMatrix {
             {28, 29, 37, 49},
             {33, 34, 38, 60}
         };
+        
         int target = 38;
 
         System.out.println(Arrays.toString(search(arr, target)));
