@@ -19,7 +19,7 @@ public class NthDigit {
         }
 
         // Find the actual number
-        start += (n - 1) / digits;
+        start = start + (n - 1) / digits;
 
         String num = String.valueOf(start);
 
