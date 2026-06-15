@@ -9,7 +9,7 @@ public class NthDigit {
         long start = 1;
 
         // Find the block containing the nth digit
-        while (n > digits * count) {
+        while (n >= digits * count) {
             
             n -= digits * count;
 
