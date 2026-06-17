@@ -6,7 +6,7 @@ public class Seive {
     }
 
     // false in array means number is prime
-    static void sieve (int n, boolean primes[]) {
+    static void sieve (int n, boolean[] primes) {
         for (int i = 2; i*i <= n; i++) {
             if (!primes[i]) {
                 for (int j = i*2; j <= n; j += i) {
